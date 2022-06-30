@@ -11,5 +11,5 @@ for chance in range(10):
         print("You guessed a greater value")
     if guess < rand:
         print("You guessed a smaller value")
-if guess == False:
+if guessed == False:
     print(f"You could not guess it the number was {rand}")
